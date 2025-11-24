@@ -35,7 +35,7 @@ min_size: 2000
 
 ## Quick Start
 ### 1. Initialize project
-```
+````python 
 from src.image_class import project
 import yaml
 
@@ -53,37 +53,40 @@ p = project(
     cell_size_threshold=2000,
     group_info=group_info,
 )
-```
+````
 
 ### 2. Run CellPose + intensity extraction
-```
+````python 
 median_df, mean_df = p.batch_masking(
     cellpose_ch=0,
     signal_ch=1,
     gamma=1
 )
-```
+````
+
 Results will be saved automatically in a new timestamped folder.     
 
 ## Optional Tools
 ### Organize group data
-```
+````python 
 p.orgnize_master_files(median_df, "median")
 p.orgnize_master_files(mean_df, "mean")
-```
+````
+
 ### Two-channel comparison
-```
+````python 
 p.both_channel_ratio(
     cellpose_ch=0,
     mask_ch1=1, mask_ch2=2,
     low_bound_ch1=100, up_bound_ch1=800,
     low_bound_ch2=50,  up_bound_ch2=600,
 )
-```
+````
+
 ### Count cells per channel
-```
+````python 
 raw, sorted = p.count_cells_per_channel([0,1,2])
-```
+````
 
 ## Notebook
 A ready-to-run demo is included in:
