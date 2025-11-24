@@ -1,3 +1,8 @@
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ShanJiangEmugen/Single-Cell-Intensity-Analysis-Tool)
+![GitHub license](https://img.shields.io/github/license/ShanJiangEmugen/Single-Cell-Intensity-Analysis-Tool)
+![GitHub issues](https://img.shields.io/github/issues/ShanJiangEmugen/Single-Cell-Intensity-Analysis-Tool)
+
+
 # Cell Intensity Analysis Tool
 A lightweight pipeline for cell segmentation and fluorescence intensity extraction using **CellPose** + **AICSImageIO**.    
 Supports batch processing, per-cell intensity quantification, multi-channel analysis, and group-based statistics.    
