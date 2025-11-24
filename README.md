@@ -15,8 +15,8 @@ Supports batch processing, per-cell intensity quantification, multi-channel anal
 
 Create environment:    
 ```
-conda create -n cellpose python=3.10 
-conda activate cellpose
+conda create -n cells python=3.10 
+conda activate cells
 ```
 
 Install dependencies:
