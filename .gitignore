@@ -1,2 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# folders
 .ipynb_checkpoints/
+venv/
+.env/
+build/
+dist/
+
+# OS
+.DS_Store
+
+# data
+*.czi
+*.csv
+*.png
+*.tif
+*.jpg
+
