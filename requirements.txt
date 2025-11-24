@@ -1,0 +1,14 @@
+aicsimageio
+aicspylibczi>=3.1.1
+cellpose
+pandas
+numpy
+matplotlib
+scikit-image
+scipy
+scikit-posthocs
+statsmodels
+tqdm
+pyyaml
+opencv-python
+

@@ -1,0 +1,16 @@
+# maximum error for keeping  (0.4) 
+# keep this small to reduce false postive 
+diameter: 75
+
+# mininum intensity for all pixels for keeping  (0) 
+# keep this around 3 to eliminate(reduce) boundaries
+flow_threshold: 0.25
+
+# mininum intensity for all pixels for keeping  (0) 
+# keep this around 3 to eliminate(reduce) boundaries
+cellprob_threshold: 5 
+
+# mimnum size for single cell for keeping (15) 
+# no big changes here, could do an estimate on cell pixel size for that
+min_size: 2000
+
